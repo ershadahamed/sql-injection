@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sql-injection:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sql-injection</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sql-injection.war">
+      <element id="artifact" artifact-name="sql-injection:war exploded" />
+    </root>
+  </artifact>
+</component>
